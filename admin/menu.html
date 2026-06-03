@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlmenu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+         <h2 class="admin-title">CAFE ADMIN</h2>
+        <ul class="menu">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="menu.html">Quản lý món</a></li>
+            <li><a href="donhang.html">Đơn hàng</a></li>
+            <li><a href="khachhang.html">Khách hàng</a></li>
+            <li><a href="doanhthu.html">Doanh thu</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="table-box">
+            <h2 class="table-title">Quản Lý Món Uống</h2>
+            <table>
+                <tr>
+                    <th>Hình</th>
+                    <th>Tên món</th>
+                    <th>Loại</th>
+                    <th>Giá</th>
+                    <th>Sửa</th>
+                    <th>Xóa</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="tradao.jpg" class="product-img">
+                    </td>
+                    <td>Trà Đào</td>
+                    <td>Trà</td>
+                    <td>35.000đ</td>
+                    <td>
+                        <button class="btn-edit">Sửa</button>
+                    </td>
+
+                    <td>
+                        <button class="btn-delete">Xóa</button>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+        <div class="form-box">
+            <h2>Thêm Món Mới</h2>
+            <input type="text" placeholder="Tên món">
+            <select>
+                <option>Chọn loại món</option>
+                <option>Trà</option>
+                <option>Cà phê</option>
+                <option>Matcha</option>
+            </select>
+            <input type="text" placeholder="Giá món">
+            <input type="file">
+            <button>Thêm món</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
