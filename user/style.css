@@ -1,0 +1,362 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+     overflow-x:hidden;
+}
+
+.imgpage1,
+.page1tt {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.imgpage1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.boxheader {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    height: 60px;
+    background-color: rgba(185, 183, 183, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border-radius: 10px;
+    z-index: 2;
+    position: fixed;
+    z-index: 1000;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.content1 {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.content1 h1{
+    color:  beige;
+    font-size: 95px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.content1 p{
+    color:  beige;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+.page2,
+.page3 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.page1tt{
+    width:100%;
+    min-height:100vh;
+    background:beige;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+    padding:50px 8%;
+    box-sizing:border-box;
+}
+
+.gioithieu-img{
+    width:45%;
+}
+
+.gioithieu-img img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.gioithieu-text{
+    width:45%;
+    font-style: italic;
+}
+.gioithieu-text h1{
+    font-size:45px;
+    color:#4b2e2e;
+    margin-bottom:25px;
+}
+.gioithieu-text p{
+    font-size:20px;
+    color:#555;
+    line-height:1.8;
+}
+.footer{
+    width:100%;
+    background: #6b3e26;
+    padding:20px 20px;
+    text-align:center;
+}
+.contact-infopage1tt{
+    width:100%;
+    text-align:center;
+    padding:20px 20px;
+    box-sizing:border-box;
+}
+.contact-infopage1tt p{
+    margin:10px 0;
+    color:beige;
+    font-size:20px;
+}
+.menu-title {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #4b2e2e;
+}
+
+.menu-container {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.menu-box {
+    margin-bottom: 60px;
+}
+
+.menu-box h2 {
+    font-size: 35px;
+    color: #6b3e26;
+    margin-bottom: 25px;
+    border-left: 6px solid #c49b63;
+    padding-left: 20px;
+}
+
+.drink-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.drink-card {
+    width: 250px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
+.drink-card:hover {
+    transform: translateY(-10px);
+}
+
+.drink-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.drink-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.drink-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3d2b1f;
+}
+
+.drink-info p {
+    color: #777;
+    font-size: 16px;
+}
+
+.contact {
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 50px;
+    color: #4b2e2e;
+    margin-bottom: 60px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-img {
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contact-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-form {
+    width: 500px;
+    background: white;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 35px;
+    color: #4b2e2e;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #6b3e26;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contact-form button:hover {
+    background-color: #4b2e2e;
+}
+
+.contact-info {
+    margin-top: 25px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 17px;
+}
+
+.review-section {
+    background-color: beige;
+    min-height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.review-title {
+    text-align: center;
+    font-size: 50px;
+    color: #4b2e2e;
+    margin-bottom: 40px;
+}
+
+.review-form {
+    width: 700px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.review-form textarea {
+    height: 140px;
+    resize: none;
+}
+
+.review-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #6b3e26;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review-form button:hover{
+    background-color:#4b2e2e;
+}
+
+#reviewList{
+    width:700px;
+    margin:40px auto;
+}
+.review-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+    color: #4b2e2e;
+    margin-bottom: 10px;
+}
